@@ -23,7 +23,8 @@ public class No7 implements Question{
 
     @Override
     public void run() {
-
+        Solution1 solution1 = new Solution1();
+        System.out.println(solution1.reverse(4453197));
     }
 
     /**
